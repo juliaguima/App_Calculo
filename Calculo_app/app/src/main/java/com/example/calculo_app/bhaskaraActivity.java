@@ -31,8 +31,8 @@ public class bhaskaraActivity extends AppCompatActivity {
                 Double C = Double.parseDouble(tl_c.getText().toString());
 
                 Double delta = (B*B) - (4*A*C);
-                Double X1  =  (-B + delta)/2*A;
-                Double X2  = (-B - delta)/2*A;
+                Double X1  =  (-B + Math.sqrt(delta))/2*A;
+                Double X2  = (-B - Math.sqrt(delta))/2*A;
 
                 TextView txt_bhas = findViewById(R.id.txt_bhas);
                 txt_bhas.setText("X1 : "+X1+"\nX2 : "+X2);
