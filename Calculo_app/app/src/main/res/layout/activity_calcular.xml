@@ -40,7 +40,7 @@
         tools:layout_editor_absoluteY="112dp" />
 
     <EditText
-        android:id="@+id/num2"
+        android:id="@+id/tv_num2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
@@ -50,7 +50,7 @@
         tools:layout_editor_absoluteY="273dp" />
 
     <EditText
-        android:id="@+id/num1"
+        android:id="@+id/tv_num1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
@@ -93,7 +93,7 @@
         tools:layout_editor_absoluteY="397dp" />
 
     <EditText
-        android:id="@+id/num3"
+        android:id="@+id/tv_num3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"

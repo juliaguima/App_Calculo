@@ -1,7 +1,6 @@
 package com.example.calculo_app;
 
 import androidx.appcompat.app.AppCompatActivity;
-import android.content.DialogInterface;
 
 import android.os.Bundle;
 import android.view.View;
@@ -9,13 +8,11 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 import android.widget.TextView;
-import android.os.Bundle;
-import android.widget.Button;
 
 public class CalcularActivity extends AppCompatActivity {
 
     Button btn_calcula;
-    TextView tv_num1,tv_num2,tv_num3;
+    EditText tv_num1,tv_num2,tv_num3;
 
 
     @Override
@@ -23,9 +20,9 @@ public class CalcularActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_calcular);
 
-        tv_num1 = findViewById(R.id.num1);
-        tv_num2 = findViewById(R.id.num2);
-        tv_num3 = findViewById(R.id.num3);
+        tv_num1 = findViewById(R.id.tv_num1);
+        tv_num2 = findViewById(R.id.tv_num2);
+        tv_num3 = findViewById(R.id.tv_num3);
         btn_calcula = findViewById(R.id.btn_calcula);
 
 

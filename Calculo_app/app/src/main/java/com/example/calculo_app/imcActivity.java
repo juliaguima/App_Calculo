@@ -3,8 +3,10 @@ package com.example.calculo_app;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.text.Editable;
 import android.view.View;
 import android.widget.Button;
+import android.widget.EditText;
 import android.widget.TextView;
 
 public class imcActivity extends AppCompatActivity {
@@ -15,7 +17,7 @@ public class imcActivity extends AppCompatActivity {
         setContentView(R.layout.activity_imc);
 
         Button btn_calcula_imc;
-        TextView tl_nome,tl_idade,tl_altura,tl_peso;
+        EditText tl_nome,tl_idade,tl_altura,tl_peso;
 
         tl_nome = findViewById(R.id.nome);
         tl_idade = findViewById(R.id.idade);

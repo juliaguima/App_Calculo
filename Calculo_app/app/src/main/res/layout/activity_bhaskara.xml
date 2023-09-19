@@ -45,8 +45,8 @@
 
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar9"
-        android:layout_width="417dp"
-        android:layout_height="103dp"
+        android:layout_width="434dp"
+        android:layout_height="108dp"
         android:background="@color/purple_200"
         android:minHeight="?attr/actionBarSize"
         android:theme="?attr/actionBarTheme"
@@ -199,8 +199,8 @@
 
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar7"
-        android:layout_width="409dp"
-        android:layout_height="wrap_content"
+        android:layout_width="446dp"
+        android:layout_height="69dp"
         android:background="@color/purple_200"
         android:minHeight="?attr/actionBarSize"
         android:theme="?attr/actionBarTheme"

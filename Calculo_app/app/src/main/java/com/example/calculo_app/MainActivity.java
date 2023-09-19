@@ -9,7 +9,7 @@ import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
 
-    Button btnMudaView,btnMudaView2;
+    Button btnMudaView1,btnMudaView2,btnMudaView3,btnMudaView4;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -17,21 +17,41 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
 
-        btnMudaView = findViewById(R.id.btnMudaView);
-        btnMudaView.setOnClickListener(new View.OnClickListener() {
+        btnMudaView1 = findViewById(R.id.btnMudaView2);
+        btnMudaView1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent tela2 = new Intent(getApplicationContext(),CalcularActivity.class);
-                startActivity(tela2);
+                Intent tela1 = new Intent(getApplicationContext(),CalcularActivity.class);
+                startActivity(tela1);
             }
         });
 
         btnMudaView2 = findViewById(R.id.btnMudaView2);
-        btnMudaView.setOnClickListener(new View.OnClickListener() {
+        btnMudaView2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent tela3 = new Intent(getApplicationContext(),imcActivity.class);
+                Intent tela2 = new Intent(getApplicationContext(),imcActivity.class);
+                startActivity(tela2);
+
+            }
+        });
+
+        btnMudaView3 = findViewById(R.id.btnMudaView3);
+        btnMudaView3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent tela3 = new Intent(getApplicationContext(),bhaskaraActivity.class);
                 startActivity(tela3);
+
+            }
+        });
+
+        btnMudaView4 = findViewById(R.id.btnMudaView4);
+        btnMudaView4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent tela4 = new Intent(getApplicationContext(),EnviaActivity.class);
+                startActivity(tela4);
 
             }
         });

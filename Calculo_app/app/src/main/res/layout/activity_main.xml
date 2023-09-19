@@ -9,8 +9,8 @@
 
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar"
-        android:layout_width="409dp"
-        android:layout_height="wrap_content"
+        android:layout_width="508dp"
+        android:layout_height="61dp"
         android:background="@color/purple_200"
         android:minHeight="?attr/actionBarSize"
         android:theme="?attr/actionBarTheme"
@@ -21,29 +21,61 @@
 
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar2"
-        android:layout_width="443dp"
-        android:layout_height="161dp"
+        android:layout_width="553dp"
+        android:layout_height="134dp"
         android:background="@color/purple_200"
         android:minHeight="?attr/actionBarSize"
         android:theme="?attr/actionBarTheme"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="1.0"
-        tools:layout_editor_absoluteX="1dp" />
-
-    <Button
-        android:id="@+id/btnMudaView"
-        android:layout_width="249dp"
-        android:layout_height="156dp"
-        android:text="Somar"
-        tools:layout_editor_absoluteX="81dp"
-        tools:layout_editor_absoluteY="137dp" />
+        tools:layout_editor_absoluteX="-1dp" />
 
     <Button
         android:id="@+id/btnMudaView2"
-        android:layout_width="249dp"
-        android:layout_height="156dp"
+        android:layout_width="194dp"
+        android:layout_height="102dp"
         android:text="IMC"
-        tools:layout_editor_absoluteX="81dp"
-        tools:layout_editor_absoluteY="352dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.485"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.323" />
+
+    <Button
+        android:id="@+id/btnMudaView3"
+        android:layout_width="198dp"
+        android:layout_height="96dp"
+        android:text="Bhaskara"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/toolbar" />
+
+    <Button
+        android:id="@+id/btnMudaView4"
+        android:layout_width="198dp"
+        android:layout_height="96dp"
+        android:text="ENVIA NOME"
+        app:layout_constraintBottom_toBottomOf="@+id/toolbar2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/toolbar"
+        app:layout_constraintVertical_bias="0.68" />
+
+    <Button
+        android:id="@+id/btnMudaView1"
+        android:layout_width="198dp"
+        android:layout_height="96dp"
+        android:text="Somar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.151" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
